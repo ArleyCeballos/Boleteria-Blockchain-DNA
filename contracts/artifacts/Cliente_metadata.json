@@ -1,0 +1,115 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_last_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_home_address",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_dni",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_phone_number",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "user",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "last_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "home_address",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "dni",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "phone_number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Cliente.sol": "Cliente"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Cliente.sol": {
+			"keccak256": "0x4e91c2b862fe1a57aca94498ab700db39509448e33241b4e33858e86d018b5b1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2bc1aafdeff9e1849cfe79a441d49a159b3a427522d33da678eac9529b527a44",
+				"dweb:/ipfs/Qmf5kxaoc86AoQXfDEWLTJjGCeLcvFJnYZLpX2TfbHutjh"
+			]
+		}
+	},
+	"version": 1
+}
