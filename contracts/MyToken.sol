@@ -29,7 +29,7 @@ contract MyToken is ERC721, ERC721Burnable, Ownable {
     }
 
     function transferTicket(address to) public onlyOwner {
-        _safeMint(to, ticketInfo.id/*user.id*/);//se puede hacer asi 
+        _safeMint(to, ticketInfo.id/*,user.id*/);//se puede hacer asi 
     }
     
    
